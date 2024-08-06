@@ -15,7 +15,6 @@
             height: 100vh;
             margin: 0;
             flex-direction: column;
-            text-align: center;
         }
         .title {
             font-size: 36px;
@@ -68,13 +67,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 90%;
-            max-width: 600px;
-        }
-        .buttons {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            text-align: center;
         }
         @keyframes fadeIn {
             from {
@@ -82,52 +75,6 @@
             }
             to {
                 opacity: 1;
-            }
-        }
-        @media (max-width: 600px) {
-            .title {
-                font-size: 28px;
-            }
-            .move-btn {
-                width: 90px;
-                height: 90px;
-                border-radius: 45px;
-            }
-            .move-icon {
-                height: 40px;
-            }
-            .result {
-                font-size: 20px;
-            }
-            .score {
-                font-size: 18px;
-            }
-            .reset {
-                font-size: 14px;
-                padding: 6px 12px;
-            }
-        }
-        @media (max-width: 400px) {
-            .title {
-                font-size: 24px;
-            }
-            .move-btn {
-                width: 70px;
-                height: 70px;
-                border-radius: 35px;
-            }
-            .move-icon {
-                height: 30px;
-            }
-            .result {
-                font-size: 18px;
-            }
-            .score {
-                font-size: 16px;
-            }
-            .reset {
-                font-size: 12px;
-                padding: 5px 10px;
             }
         }
     </style>
