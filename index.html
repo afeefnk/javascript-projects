@@ -153,8 +153,7 @@
             updateScoreElement();
 
             document.querySelector('.js-result').innerHTML = result;
-            document.querySelector('.js-moves').innerHTML = `You <img src="Images/${playerMove}-emoji.png" class="move-icon" alt="">
-            <img src="Images/${computerMove}-emoji.png" class="move-icon" alt="">Computer`;
+            document.querySelector('.js-moves').innerHTML = `You ${playerMove},   Computer ${computerMove}`;
         }
 
         function updateScoreElement() {
